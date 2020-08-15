@@ -28,6 +28,7 @@ body {
   grid-template-areas: "title switch" "text text";
   background-color: var(--bg-container);
   border-radius: 20px;
+  transition: background .2s;
 }
 
 .title {
