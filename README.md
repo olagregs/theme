@@ -59,7 +59,7 @@ Hoje em dia, os sites e apps estão implementando cada vez mais essa funcionalid
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gregory-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gregory-lucena-2450751b4/)](https://www.linkedin.com/in/gregory-lucena/)
 [![Gmail Badge](https://img.shields.io/badge/-gregoryflucena@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gregoryflucena@gmail.com)](mailto:gregoryflucena@gmail.com)
-![GitHub](https://img.shields.io/github/license/olagregs/theme?style=flat-square)
+![GitHub](https://img.shields.io/github/license/olagregs/themes?style=flat-square)
 
 <p>Made with ❤️ and ☕ by me 😁</p>
 
