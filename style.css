@@ -1,0 +1,80 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 400;
+
+  --bg-color: #dddddd;
+  --bg-container: #cccccc;
+  --title-color: #0077ff;
+  --text-color: #333333;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  margin: 60px;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 90% auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "title switch" "text text";
+  background-color: var(--bg-container);
+  border-radius: 20px;
+}
+
+.title {
+  margin: 0;
+  color: var(--title-color);
+}
+
+.text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  color: var(--text-color);
+  grid-area: text;
+}
+
+input[name="switch"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+label {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 30px;
+  background-color: #888888;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px 1px #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background-color: var(--title-color);
+}
+
+input:checked + label::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
